@@ -1,0 +1,2 @@
+frictionless==4.1.0
+python-dotenv==0.15.0

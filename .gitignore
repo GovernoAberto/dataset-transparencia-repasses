@@ -1,0 +1,4 @@
+download/*.csv
+output/*.csv
+Dockerfile
+.env
