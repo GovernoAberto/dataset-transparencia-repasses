@@ -3,7 +3,7 @@ if(!require('dplyr'))
 
 library('dplyr')
 
-files <- list.files("download")
+files <- list.files("download", pattern = "\\.csv$")
 
 if(length(files) == 0)
   stop("Files not founded in 'download' dir")
